@@ -40,24 +40,24 @@ let handler = async (m, {conn}) => {
 const vcard = `BEGIN:VCARD
 VERSION:3.0
 N:;;;
-FN: ᯤ 𝙅𝙖𝙧𝙤𝙩 𝙊𝙛𝙘
-item.ORG: ᴅᴇᴠᴇʟᴏᴩᴇʀ ʙᴏᴛ
-item1.TEL;waid=6285850539404:6285850539404@s.whatsapp.net
-item1.X-ABLabel: ᴅᴇᴠᴇʟᴏᴩᴇʀ ʙᴏᴛ
-item2.EMAIL;type=INTERNET: Jarott@gmail.com
+FN: ᯤ ɪᴋʏ ᴏғᴄ
+item.ORG:  ɪᴋʏ ᴏғᴄ
+item1.TEL;waid=6285797375014:6285797375014@s.whatsapp.net
+item1.X-ABLabel: ɴᴏᴍᴏʀ ʙᴏᴛ
+item2.EMAIL;type=INTERNET: ky@gmail.com
 item2.X-ABLabel:📫 Gmail
-item3.ADR:;;📍 Jawa Timur - Indonesian;;;;
+item3.ADR:;;📍 Jawa - Indonesian;;;;
 item3.X-ABADR:ac
 item3.X-ABLabel:📮 Location Owner
 item4.URL:https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ
 item4.X-ABLabel:Youtube
 item5.URL:https://github.com/Alpiii22
 item5.X-ABLabel:Github
-item6.URL:https://instagram.com/jarotr_
-item6.X-ABLabel:Instagram Jarot
+item6.URL:https://instagram.com/lynxofc
+item6.X-ABLabel:Instagram Iky
 item7.URL:𝚈𝚘𝚞𝚝𝚞𝚋𝚎: 𝙹𝚊𝚛𝚘𝚝 𝙾𝚏𝚏𝚌
 item7.X-ABLabel: 𝚂𝚞𝚜𝚌𝚛𝚒𝚋𝚎 𝙲𝚑𝚊𝚗𝚎𝚕 𝚓𝚊𝚛𝚘𝚝
-item1.TEL;waid=6285943036511:6285850539404@s.whatsapp.net
+item1.TEL;waid=6285797375014:6285797375014@s.whatsapp.net
 item1.X-ABLabel: Creator Bot
 END:VCARD`
 const sentMsg  = await conn.sendMessage(
@@ -70,7 +70,7 @@ const sentMsg  = await conn.sendMessage(
     }
 )
 let jarot = 'https://telegra.ph/file/1b4913c4196e640732efa.jpg'
-await conn.send3ButtonImg(m.chat, jarot, `${ucapan()}\n\n𝙷𝚊𝚕𝚘 𝙺𝚊𝚔, @${m.sender.split`@`[0]} 👋\n𝙸𝚗𝚒 𝙽𝚘𝚖𝚎𝚛 𝙾𝚠𝚗𝚎𝚛 𝙱𝚘𝚝, 𝙹𝚊𝚗𝚐𝚊𝚗 𝙳𝚒 𝚂𝚙𝚊𝚖 𝚈𝚊\n𝙺𝚊𝚕𝚊𝚞 𝙼𝚊𝚞 𝙳𝚒𝚜𝚊𝚟𝚎 𝚂𝚢𝚊𝚛𝚊𝚝 𝙽𝚢𝚊 𝙷𝚊𝚛𝚞𝚜 𝙿𝚊𝚔𝚊𝚒 𝙿𝚛𝚘𝚏𝚒𝚕 𝚜𝚎𝚗𝚍𝚒𝚛𝚒\n𝙺𝚊𝚕𝚊𝚞 𝙶𝚊𝚔 𝙰𝚍𝚊 𝙿𝚛𝚘𝚏𝚒𝚕 𝙶𝚊𝚔 𝙱𝚊𝚔𝚊𝚕𝚊𝚗 𝙳𝚒 𝚁𝚎𝚜𝚙𝚘𝚗\n𝙹𝚒𝚔𝚊 𝙿𝚎𝚗𝚝𝚒𝚗𝚐 𝙻𝚊𝚗𝚐𝚜𝚞𝚗𝚐 𝚆𝚊 𝙾𝚠𝚗𝚎𝚛\n\n⫹⫺ Date : *${week} ${date}*\n⫹⫺ Time : *${wib}*`, wm, 'Source', '.sc', 'Menu', '.menu', 'Donasi', '.donasi', sentMsg)}
+await conn.send3ButtonImg(m.chat, Iky, `${ucapan()}\n\n𝙷𝚊𝚕𝚘 𝙺𝚊𝚔, @${m.sender.split`@`[0]} 👋\n𝙸𝚗𝚒 𝙽𝚘𝚖𝚎𝚛 𝙾𝚠𝚗𝚎𝚛 𝙱𝚘𝚝, 𝙹𝚊𝚗𝚐𝚊𝚗 𝙳𝚒 𝚂𝚙𝚊𝚖 𝚈𝚊\n𝙺𝚊𝚕𝚊𝚞 𝙼𝚊𝚞 𝙳𝚒𝚜𝚊𝚟𝚎 𝚂𝚢𝚊𝚛𝚊𝚝 𝙽𝚢𝚊 𝙷𝚊𝚛𝚞𝚜 𝙿𝚊𝚔𝚊𝚒 𝙿𝚛𝚘𝚏𝚒𝚕 𝚜𝚎𝚗𝚍𝚒𝚛𝚒\n𝙺𝚊𝚕𝚊𝚞 𝙶𝚊𝚔 𝙰𝚍𝚊 𝙿𝚛𝚘𝚏𝚒𝚕 𝙶𝚊𝚔 𝙱𝚊𝚔𝚊𝚕𝚊𝚗 𝙳𝚒 𝚁𝚎𝚜𝚙𝚘𝚗\n𝙹𝚒𝚔𝚊 𝙿𝚎𝚗𝚝𝚒𝚗𝚐 𝙻𝚊𝚗𝚐𝚜𝚞𝚗𝚐 𝚆𝚊 𝙾𝚠𝚗𝚎𝚛\n\n⫹⫺ Date : *${week} ${date}*\n⫹⫺ Time : *${wib}*`, wm, 'Source', '.sc', 'Menu', '.menu', 'Donasi', '.donasi', sentMsg)}
 handler.help = ['owner']
 handler.tags = ['info']
 handler.command = /^(owner|creator)$/i
